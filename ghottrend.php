@@ -63,7 +63,7 @@ class GHotTrend
 
     public function get($format = 'json',$proxy = null)
     {
-        if($proxy != 'null')
+        if($proxy != null)
         {
             $proxySetting = array(
                 'http' => array(
